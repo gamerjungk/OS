@@ -62,6 +62,40 @@
 
 <img width="365" alt="OS ps aux" src="https://github.com/gamerjungk/OS/assets/166417495/357a4ddc-b01a-4dac-ac52-85e8c8289a5e">
 
+## ps 명령어 주요 내용
+
++ UID : 프로세스를 실행시킨 사용자 ID
++ PID : 프로세스에 부여된 ID
++ PPID : 프로세스의 부모 프로세스 ID(Parent Process ID)
++ C : CPU 사용량(%)
++ PRI : 프로세스 우선순위
++ NI : 프로세스의 CPU 자원 사용 우선순위(NICE)
++ ADDR : 프로세스의 메모리 주소
++ SZ : 가상 메모리 사용량
++ STIME : 프로세스 시작 시간
++ TTY : 프로세스가 실행된 터미널의 종류와 번호
++ TIME : 프로세스에 의해 사용된 CPU 시간
++ CMD : 실행된 프로세스의 이름 혹은 실행된 명령
+
+
+## jobs 명령어
++ 리눅스 셸에서 실행한 프로세스 목록을 확인하는 명령어
+
+## jobs 명령어의 기본 형식 
+
+` jobs [OPTIONS] [JOB]`
+
+`$jobs`
+
+## jobs 명령어의 옵션
+
++ -i : 프로세스 ID와 함께 잡 목록을 출력함
++ -n : 마지막으로 알림 이후 변경된 job만 출력함
++ -p : job의 프로세스 ID만 출력함
++ -r : 실행 중인 job만 출력함
++ -s : 중지된 job만 출력
+
+
 
 안녕하세요. 반갑습니다.
 ---
