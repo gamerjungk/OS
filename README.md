@@ -54,13 +54,13 @@
 + -u [사용자 이름] : 특정 사용자에 대한 모든 프로세스의 정보를 출력
 + -p pid : pid로 지정한 프로세스의 정보를 출력
 
-![ps -efl](./OS ps -efl image.png)
+<img width="452" alt="OS ps -efl" src="https://github.com/gamerjungk/OS/assets/166417495/e824f995-4c26-44f1-8251-488b207ee22d">
 
 + a : 터미널에서 실행한 프로세스의 정보를 출력(R-실행중, S-대기, T-정지, Z-좀비프로세스)
 + u : 프로세스 소유자의 이름, CPU 사용량, 메모리 사용량 등 상세한 정보 출력 (default = present user)
 + x : 실행 중인 모든 프로세스의 정보를 출력
 
-
+<img width="365" alt="OS ps aux" src="https://github.com/gamerjungk/OS/assets/166417495/357a4ddc-b01a-4dac-ac52-85e8c8289a5e">
 
 
 안녕하세요. 반갑습니다.
