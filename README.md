@@ -1,5 +1,5 @@
 # OS
-오픈소스SW개론 테스트 파일
+오픈소스SW개론 테스트 파일 & top,ps,jobs,kill에 대한 자료가 담겨있음.
 
 ## top 명령어
 
@@ -113,40 +113,8 @@
 
 ## kill -l 옵션 실행 결과
 
++ 대체로 9 옵션을 많이 씀
++ -9 : SIGKILL 옵션으로 해당 PID의 프로세스를 죽이는 역할을 함.
 
+![image](https://github.com/gamerjungk/OS/assets/166417495/77ddfd9b-fd3a-4fcf-a473-0041e4f7d8a6)
 
-안녕하세요. 반갑습니다.
----
-
-###### 안녕하세요
-### 안녕하세요
-## 안녕하세요
-
-***
-
-+ 일어나기
-+ 밥먹기
-+ 자기
-
-1. 일어나기
-2. 밥먹기
-3. 자기
-
-> 인용문
->> 인용문
-
-`printf("Hello World!");`
-
-```C
-#include <stdio.h>
-
-int main(void){
-  printf("hello world!\n");
-  return 0;
-}
-```
-
-
-```git
-git commit -m "my first commit"
-```
